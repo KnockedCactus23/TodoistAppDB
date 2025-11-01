@@ -8,7 +8,7 @@
 import Foundation
 
 class TaskService {
-    private let baseURL = "http://192.168.1.221:8001/api/tasks"
+    private let baseURL = "http://localhost:8001/api/tasks"
     
     // Función para obtener todas las tareas
     func fetchTasks() async throws -> [DataTask] {
