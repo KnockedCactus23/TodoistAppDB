@@ -7,8 +7,9 @@
 
 import Foundation
 
+// Modelo de datos
 struct DataTask: Codable, Identifiable {
-    var id: Int?
+    var id: Int? // No es necesario establecerlo
     var title: String
     var details: String
     var priority: Priority

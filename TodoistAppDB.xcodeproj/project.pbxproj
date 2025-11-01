@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		F35A75372EB2CAD000E394E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37294A42EB1A58900320A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37294AB2EB1A58900320A51;
+			remoteInfo = TodoistAppDB;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F35A75332EB2CAD000E394E7 /* TodoistAppDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoistAppDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37294AC2EB1A58900320A51 /* TodoistAppDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoistAppDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		F35A75342EB2CAD000E394E7 /* TodoistAppDBTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TodoistAppDBTests;
+			sourceTree = "<group>";
+		};
 		F37294AE2EB1A58900320A51 /* TodoistAppDB */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TodoistAppDB;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F35A75302EB2CAD000E394E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F37294A92EB1A58900320A51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				F37294AE2EB1A58900320A51 /* TodoistAppDB */,
+				F35A75342EB2CAD000E394E7 /* TodoistAppDBTests */,
 				F37294AD2EB1A58900320A51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				F37294AC2EB1A58900320A51 /* TodoistAppDB.app */,
+				F35A75332EB2CAD000E394E7 /* TodoistAppDBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F35A75322EB2CAD000E394E7 /* TodoistAppDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35A75392EB2CAD000E394E7 /* Build configuration list for PBXNativeTarget "TodoistAppDBTests" */;
+			buildPhases = (
+				F35A752F2EB2CAD000E394E7 /* Sources */,
+				F35A75302EB2CAD000E394E7 /* Frameworks */,
+				F35A75312EB2CAD000E394E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35A75382EB2CAD000E394E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F35A75342EB2CAD000E394E7 /* TodoistAppDBTests */,
+			);
+			name = TodoistAppDBTests;
+			packageProductDependencies = (
+			);
+			productName = TodoistAppDBTests;
+			productReference = F35A75332EB2CAD000E394E7 /* TodoistAppDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F37294AB2EB1A58900320A51 /* TodoistAppDB */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F37294B72EB1A58A00320A51 /* Build configuration list for PBXNativeTarget "TodoistAppDB" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					F35A75322EB2CAD000E394E7 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F37294AB2EB1A58900320A51;
+					};
 					F37294AB2EB1A58900320A51 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				F37294AB2EB1A58900320A51 /* TodoistAppDB */,
+				F35A75322EB2CAD000E394E7 /* TodoistAppDBTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F35A75312EB2CAD000E394E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F37294AA2EB1A58900320A51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F35A752F2EB2CAD000E394E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F37294A82EB1A58900320A51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,57 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F35A75382EB2CAD000E394E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37294AB2EB1A58900320A51 /* TodoistAppDB */;
+			targetProxy = F35A75372EB2CAD000E394E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F35A753A2EB2CAD000E394E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 489GNL89YM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TodoistAppDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoistAppDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoistAppDB";
+			};
+			name = Debug;
+		};
+		F35A753B2EB2CAD000E394E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 489GNL89YM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TodoistAppDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoistAppDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoistAppDB";
+			};
+			name = Release;
+		};
 		F37294B52EB1A58A00320A51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -313,6 +430,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F35A75392EB2CAD000E394E7 /* Build configuration list for PBXNativeTarget "TodoistAppDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35A753A2EB2CAD000E394E7 /* Debug */,
+				F35A753B2EB2CAD000E394E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F37294A72EB1A58900320A51 /* Build configuration list for PBXProject "TodoistAppDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
